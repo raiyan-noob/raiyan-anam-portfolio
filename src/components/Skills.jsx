@@ -18,6 +18,9 @@ import {
   FaCode,
   FaChevronLeft,
   FaChevronRight,
+  FaJava,
+  FaShieldAlt,
+  FaPalette,
 } from "react-icons/fa";
 import {
   SiNextdotjs,
@@ -33,7 +36,11 @@ import {
   SiVercel,
   SiCplusplus,
   SiPrisma,
+  SiDart,
+  SiFlutter,
+  SiC,
 } from "react-icons/si";
+import { TbBrandAdobePhotoshop } from "react-icons/tb";
 
 /* ── Icon mapping ── */
 const iconMap = {
@@ -46,6 +53,9 @@ const iconMap = {
   FaHtml5,
   FaTerminal,
   FaTrophy,
+  FaJava,
+  FaShieldAlt,
+  FaPalette,
   SiNextdotjs,
   SiTailwindcss,
   SiMongodb,
@@ -59,6 +69,10 @@ const iconMap = {
   SiVercel,
   SiCplusplus,
   SiPrisma,
+  SiDart,
+  SiFlutter,
+  SiC,
+  TbBrandAdobePhotoshop,
 };
 
 /* ── Category tabs ── */
@@ -173,9 +187,7 @@ export default function Skills() {
             <h2 className="section-title block text-3xl font-extrabold sm:text-4xl lg:text-5xl text-base-content">
               My <span className="gradient-text">Skills</span>
             </h2>
-            <p className="mt-4 max-w-xl text-base text-base-content/70">
-              Showing 8 skills per view. Swipe or use the arrow controls to view more across our full tech stack.
-            </p>
+            
           </motion.div>
 
           {/* Swipe / Arrow Controls */}
@@ -278,7 +290,7 @@ export default function Skills() {
               <h4 className="text-base font-bold text-base-content">Competitive Programming</h4>
             </div>
             <p className="text-sm leading-relaxed text-base-content/75">
-              500+ problems solved across Codeforces (@anamraiyan) & LeetCode focusing on graph algorithms, DP, and time complexity.
+              800+ problems solved across Codeforces & LeetCode focusing on data structure algorithms, and time complexity.
             </p>
           </div>
 
@@ -299,10 +311,10 @@ export default function Skills() {
               <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-purple-500/20 text-purple-400">
                 <FaTerminal className="text-lg" />
               </div>
-              <h4 className="text-base font-bold text-base-content">Academic CS Mentorship</h4>
+              <h4 className="text-base font-bold text-base-content">AI/ML & Intelligent Systems</h4>
             </div>
             <p className="text-sm leading-relaxed text-base-content/75">
-              Trained 30+ students across Dhaka in foundational C++, Python, Data Structures, and computational thinking.
+              Deep interest in machine learning algorithms, intelligent automation, and combining data science with modern web apps.
             </p>
           </div>
         </div>

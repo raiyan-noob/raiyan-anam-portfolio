@@ -156,7 +156,7 @@ export default function Navbar() {
                 {personalInfo.name}
               </span>
               <span className="hidden sm:inline text-[10px] uppercase tracking-wider text-base-content/60 font-semibold">
-                @{personalInfo.githubHandle}
+                @{personalInfo.handle}
               </span>
             </div>
           </a>

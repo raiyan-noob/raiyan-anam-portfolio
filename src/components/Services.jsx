@@ -54,8 +54,8 @@ export default function Services() {
           <h2 className="section-title section-title-center block text-3xl font-extrabold sm:text-4xl lg:text-5xl text-base-content">
             My <span className="gradient-text">Services</span>
           </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-base text-base-content/70 sm:text-lg">
-            High-caliber full-stack engineering, performance optimization, and personalized computer science mentorship.
+          <p className="mx-auto mt-4 max-w-2xl text-base text-base-content/75 sm:text-lg">
+            High-caliber full-stack engineering, performance optimization, and intelligent modern web applications.
           </p>
         </motion.div>
 
@@ -123,7 +123,7 @@ export default function Services() {
           className="mt-16 overflow-hidden rounded-3xl border border-indigo-500/30 bg-gradient-to-r from-indigo-900/30 via-purple-900/30 to-pink-900/30 p-8 text-center backdrop-blur-xl shadow-2xl"
         >
           <h3 className="text-2xl font-extrabold text-base-content sm:text-3xl">
-            Have a custom software project or need algorithmic mentorship?
+            Have a custom software project or need intelligent AI/web engineering?
           </h3>
           <p className="mx-auto mt-2 max-w-xl text-sm sm:text-base text-base-content/75">
             Let&apos;s collaborate to build fast, scalable applications or jumpstart your problem-solving journey.

@@ -133,7 +133,7 @@ export default function Hero() {
                   <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75" />
                   <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500" />
                 </span>
-                <span>Available for Projects & Competitive Contests</span>
+                <span>Available</span>
               </div>
             </motion.div>
 
@@ -270,7 +270,7 @@ export default function Hero() {
               </div>
               <div className="text-left">
                 <div className="text-xs font-bold text-base-content">Competitive Prog.</div>
-                <div className="text-[10px] font-semibold text-amber-400">500+ Solved • DSA</div>
+                <div className="text-[10px] font-semibold text-amber-400">600+ Problems Solved</div>
                 </div>
               </motion.div>
 
@@ -342,7 +342,7 @@ export default function Hero() {
                 </div>
                 <div className="text-left">
                   <div className="text-xs font-bold text-base-content">Algorithms</div>
-                  <div className="text-[10px] font-semibold text-indigo-400">C++ • Graphs & DP</div>
+                  <div className="text-[10px] font-semibold text-indigo-400">C++ • DSA</div>
                 </div>
               </motion.div>
             </div>

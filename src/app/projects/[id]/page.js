@@ -92,11 +92,8 @@ export default async function ProjectDetailPage({ params }) {
 
           {/* Quick Details Bar */}
           <div className="mt-8 flex flex-wrap items-center gap-4 border-y border-white/10 py-4 text-sm text-base-content/70">
-            <div className="flex items-center gap-2">
-              <span className="font-semibold text-white">Category:</span>
-              <span>Web Application</span>
-            </div>
-            <span className="text-white/20">•</span>
+           
+           
             <div className="flex items-center gap-2">
               <span className="font-semibold text-white">Architecture:</span>
               <span>Full Stack / Client-Side</span>

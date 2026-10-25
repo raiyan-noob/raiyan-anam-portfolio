@@ -62,9 +62,7 @@ const Education = () => {
           <h2 className="section-title section-title-center block text-3xl font-extrabold sm:text-4xl lg:text-5xl text-base-content">
             Educational <span className="gradient-text">Qualifications</span>
           </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-base text-base-content/70">
-            Formal engineering education at AUST and foundational science background.
-          </p>
+          
         </motion.div>
 
         {/* ── Timeline ─────────────────────────────────────── */}

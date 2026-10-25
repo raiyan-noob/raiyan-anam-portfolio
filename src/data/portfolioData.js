@@ -41,6 +41,7 @@ import {
   SiLeetcode,
   SiCodeforces,
   SiPrisma,
+  SiDart,
 } from "react-icons/si";
 
 export const personalInfo = {
@@ -51,42 +52,40 @@ export const personalInfo = {
   tagline: "Engineering Scalable Web Apps & Solving Algorithmic Puzzles",
   heroDescription:
     "Passionate about building software that solves real-world problems. Computer Science & Engineering student at AUST with deep interest in Competitive Programming, Full-Stack Development, and AI/ML.",
-  email: "raiyananam@example.com",
-  phone: "+880 1XXX-XXXXXX",
-  whatsapp: "+880 1XXX-XXXXXX",
+  email: "anamraiyan@gmail.com",
+  phone: "+880 1770-372491",
+  whatsapp: "+880 1770-372491",
   location: "Dhaka, Bangladesh",
-  resumeLink: "#",
-  profileImage: "/profile.jpg",
+  resumeLink: "/Resume.pdf",
+  profileImage: "/profile.jpeg",
   socialLinks: {
     github: "https://github.com/raiyan-noob",
     linkedin: "https://www.linkedin.com/in/anamraiyan/",
     codeforces: "https://codeforces.com/profile/anamraiyan",
     leetcode: "https://leetcode.com/anamraiyan",
-    twitter: "https://twitter.com/anamraiyan",
-    facebook: "https://facebook.com/anamraiyan",
+    facebook: "https://www.facebook.com/profile.php?id=61570802732912",
   },
   cpStats: {
     handle: "anamraiyan",
     rating: 1315,
     maxRating: 1375,
     rank: "Pupil",
-    organization: "Ahsanullah University of Science and Technology (AUST)",
-    problemsSolved: "500+",
+    problemsSolved: "600+",
   },
 };
 
 export const aboutMe = {
   description: [
-    "Hey there! I'm Raiyan Anam (known online as anamraiyan / raiyan-noob). I'm a passionate Full Stack Software Developer and Competitive Programmer studying Computer Science & Engineering (CSE) at Ahsanullah University of Science and Technology (AUST) in Dhaka, Bangladesh.",
+    "Hey there! I'm Raiyan Anam. I'm a passionate Full Stack Software Developer and Competitive Programmer studying Computer Science & Engineering (CSE) at Ahsanullah University of Science and Technology (AUST) in Dhaka, Bangladesh.",
     "I love building applications that solve real-world problems. My primary web development stack revolves around Next.js, React 19, TypeScript, and the MERN stack (MongoDB, Express.js, React, Node.js), complemented by modern styling with Tailwind CSS and state management.",
-    "On the algorithmic side, I am an active competitive programmer on Codeforces (Handle: anamraiyan, Rank: Pupil, Max Rating: 1375) and NeetCode. I solve problems primarily using C++, mastering graph algorithms, dynamic programming, and greedy strategies under contest time pressure.",
-    "Outside of software development, I am an academic private tutor in Dhaka, mentoring students in Programming (C++, Python), Data Structures, and ICT, helping them develop computational problem-solving habits.",
+    "On the algorithmic side, I am an active competitive programmer on Codeforces (Max Rating: 1375) and LeetCode. I solve problems primarily using C++, mastering Data Structure & Algorithms under contest time pressure.",
+    "Beyond software engineering, I am an active sports enthusiast who has proudly represented my school, college, and university teams in cricket and football. I harbor a deep passion for Artificial Intelligence & Machine Learning (AI/ML), enjoy crafting creative visuals with Adobe Photoshop and Canva.",
   ],
   stats: [
-    { label: "Problems Solved", value: "500+" },
-    { label: "GitHub Repos", value: "19+" },
+    { label: "Problems Solved", value: "600+" },
+    { label: "Projects Completed", value: "10+" },
     { label: "Codeforces Rating", value: "1375 Max" },
-    { label: "Students Mentored", value: "30+" },
+    { label: "Stacks Learned", value: "15+" },
   ],
 };
 
@@ -123,19 +122,19 @@ export const skills = {
       highlight: "Responsive Design, Tailwind v4, DaisyUI",
     },
     {
-      name: "Framer Motion",
+      name: "Dart",
       proficiency: "Proficient",
-      icon: "SiFramer",
-      highlight: "Smooth Transitions, Layout Animations, SVG",
+      icon: "SiDart",
+      highlight: "Flutter & Mobile Apps, OOP, Asynchronous Code",
     },
     {
-      name: "Redux Toolkit",
+      name: "Flutter",
       proficiency: "Proficient",
-      icon: "SiRedux",
-      highlight: "Global State, RTK Query, Middleware",
+      icon: "SiFlutter",
+      highlight: "Cross-Platform Mobile Apps, Dart, State Management, Custom UI",
     },
     {
-      name: "HTML5 & Modern CSS",
+      name: "HTML5 & CSS3",
       proficiency: "Expert",
       icon: "FaHtml5",
       highlight: "Semantic Markup, Modern CSS, Flex/Grid",
@@ -161,22 +160,16 @@ export const skills = {
       highlight: "Aggregation Pipelines, Mongoose, Indexing",
     },
     {
-      name: "PostgreSQL",
-      proficiency: "Proficient",
-      icon: "SiPostgresql",
-      highlight: "Relational Modeling, Complex Queries, Prisma",
-    },
-    {
       name: "Firebase",
       proficiency: "Proficient",
       icon: "SiFirebase",
       highlight: "Firestore, Realtime DB, Auth, Hosting",
     },
     {
-      name: "Prisma ORM",
-      proficiency: "Proficient",
-      icon: "SiPrisma",
-      highlight: "Type-safe DB Client, Migrations, Schema",
+      name: "Better Auth",
+      proficiency: "Advanced",
+      icon: "FaShieldAlt",
+      highlight: "TypeScript-first Auth, Session Management, OAuth, Security",
     },
   ],
   problemSolving: [
@@ -184,25 +177,31 @@ export const skills = {
       name: "C++ (Competitive)",
       proficiency: "Competitive",
       icon: "SiCplusplus",
-      highlight: "STL, Fast I/O, Memory Management, Bitmasking",
+      highlight: "STL, Fast I/O, Memory Management",
     },
     {
-      name: "Python",
+      name: "C",
       proficiency: "Advanced",
-      icon: "FaPython",
-      highlight: "Data Structures, Automation, Scripting",
+      icon: "SiC",
+      highlight: "Pointers, Memory Allocation, Structures, Systems Logic",
+    },
+    {
+      name: "Java",
+      proficiency: "Proficient",
+      icon: "FaJava",
+      highlight: "OOP Architecture, Multithreading, DSA, Collections",
     },
     {
       name: "Data Structures",
       proficiency: "Competitive",
       icon: "FaTerminal",
-      highlight: "Segment Trees, Graphs, Disjoint Sets, Heaps",
+      highlight: "Trees, Graphs, Disjoint Sets, Heaps",
     },
     {
       name: "Algorithms & Math",
       proficiency: "Competitive",
       icon: "FaTrophy",
-      highlight: "Dynamic Programming, Number Theory, Greedy, Trees",
+      highlight: "Dynamic Programming, Number Theory, Greedy, Combinatorics",
     },
   ],
   tools: [
@@ -211,12 +210,6 @@ export const skills = {
       proficiency: "Advanced",
       icon: "FaGitAlt",
       highlight: "Branching workflows, Pull Requests, CI/CD",
-    },
-    {
-      name: "Docker",
-      proficiency: "Intermediate",
-      icon: "FaDocker",
-      highlight: "Containerization, Multi-stage builds",
     },
     {
       name: "Vercel & Netlify",
@@ -230,6 +223,18 @@ export const skills = {
       icon: "FaFigma",
       highlight: "UI/UX Wireframing, Interactive Prototypes",
     },
+    {
+      name: "Adobe Photoshop",
+      proficiency: "Proficient",
+      icon: "TbBrandAdobePhotoshop",
+      highlight: "Photo Editing, Banners, Digital Visuals, Mockups",
+    },
+    {
+      name: "Canva",
+      proficiency: "Expert",
+      icon: "FaPalette",
+      highlight: "Social Media Graphics, Presentations, UI Wireframes, Branding",
+    },
   ],
 };
 
@@ -237,153 +242,107 @@ export const education = [
   {
     degree: "Bachelor of Science in Computer Science & Engineering",
     institution: "Ahsanullah University of Science and Technology (AUST)",
-    year: "2022 - Present",
+    year: "2024 - Present",
     description:
       "Pursuing BSc in CSE with strong foundations in algorithms, data structures, software engineering, operating systems, and database management. Active in competitive programming and university projects.",
-    gpa: "CGPA 3.80 / 4.00",
+    gpa: "3.22 / 4.00",
   },
   {
     degree: "Higher Secondary Certificate (HSC)",
-    institution: "Dhaka College",
-    year: "2020 - 2022",
+    institution: "Government Laboratory High School",
+    year: "2021 - 2023",
     description:
-      "Completed HSC in Science group with top marks. Developed advanced analytical problem-solving skills in mathematics, ICT, and physics.",
-    gpa: "GPA 5.00 / 5.00",
+      "Completed HSC in Science group. Developed advanced foundation in mathematics, ICT, and physics.",
+    gpa: "5.00 / 5.00",
   },
   {
     degree: "Secondary School Certificate (SSC)",
-    institution: "Ideal School and College",
-    year: "2018 - 2020",
+    institution: "Government Laboratory High School",
+    year: "2013 - 2021",
     description:
-      "Completed SSC in Science group with distinction. Participated in national math olympiads and regional science fairs.",
-    gpa: "GPA 5.00 / 5.00",
+      "Completed SSC in Science group with distinction. Participated in national competitions.",
+    gpa: "5.00 / 5.00",
   },
 ];
 
 export const experience = [
+ 
   {
-    role: "Frontend Developer Intern",
-    company: "TechCorp Bangladesh",
-    duration: "Jun 2025 - Aug 2025",
+    role: "Competitive Programmer & Algorithmic Problem Solver",
+    company: "Codeforces & LeetCode",
+    duration: "2024 - Present",
     description: [
-      "Engineered high-performance UI components using React.js and Tailwind CSS for client dashboards.",
-      "Collaborated with product designers to translate Figma design systems into pixel-perfect code.",
-      "Optimized client-side rendering and asset delivery, boosting Core Web Vitals performance by 40%.",
-      "Actively contributed in daily Agile standups, code reviews, and cross-functional team sprints.",
+      "Regularly compete in Codeforces rated rounds, achieving Pupil rank with a max rating of 1375.",
+      "Solved 600+ algorithmic challenges encompassing graphs, dynamic programming, number theory, and data structures in C++.",
+      "Participated in national, inter, and intra-university contests.",
     ],
   },
   {
-    role: "Private CS & Programming Tutor",
-    company: "Academic Mentorship (Dhaka)",
-    duration: "2023 - Present",
+    role: "AI Trainer",
+    company: "Outlier",
+    duration: "Dec 2025 - June 2026",
     description: [
-      "Mentored university and college students in C++, Python, Data Structures, and HSC/A-Level ICT.",
-      "Developed structured problem-solving roadmaps covering recursion, OOP, arrays, and basic graph algorithms.",
-      "Helped 30+ students excel in university entrance exams and semester programming courses.",
-    ],
-  },
-  {
-    role: "Freelance Full-Stack Developer",
-    company: "Self-Employed",
-    duration: "Jan 2024 - Present",
-    description: [
-      "Delivered custom responsive web applications and e-commerce solutions for local enterprises.",
-      "Implemented secure payment gateways, RESTful endpoints, and relational database schemas.",
-      "Maintained 100% on-time milestone delivery with top client ratings and reviews.",
-    ],
+  "Evaluated and refined AI-generated responses to improve accuracy, relevance, and overall quality.",
+  "Applied critical thinking and domain-specific knowledge to identify errors, inconsistencies, and reasoning gaps in AI outputs.",
+  "Provided structured feedback to support model training, instruction following, and continuous AI performance improvement.",
+],
   },
 ];
 
 export const achievements = [
   {
     title: "Codeforces Pupil & Competitive Problem Solver",
-    subheading: "Codeforces • Competitive Programming | Verified Rank: Pupil (Peak Rating: 1375)",
+    subheading: "Codeforces • Competitive Programming | Verified Rank: Pupil (Max Rating: 1375)",
     badge: "Official Rank",
     category: "Competitive Programming",
     icon: "SiCodeforces",
     description:
-      "Active competitive programmer on Codeforces (@anamraiyan) with official Pupil rank. Regularly competing in Div. 2 and Div. 3 contests, with over 500 algorithmic challenges solved across Codeforces and LeetCode in C++.",
+      "Active competitive programmer on Codeforces with official Pupil rank. Regularly competing in Div. 2 and Div. 3 contests, with over 600 problems solved in C++.",
     credentialsUrl: "https://codeforces.com/profile/anamraiyan",
   },
   {
-    title: "Problem Solving & Data Structures Specialist",
-    subheading: "NeetCode & HackerRank • Algorithmic Problem Solving | Verified",
-    badge: "500+ Solved",
-    category: "Algorithms & DSA",
-    icon: "FaTrophy",
-    description:
-      "Demonstrated algorithmic proficiency in advanced data structures including Segment Trees, Disjoint Set Union (DSU), BFS/DFS, Dijkstra, and Dynamic Programming with time & space optimization.",
-    credentialsUrl: "https://github.com/raiyan-noob/neetcode-submissions-cq3auqbe",
+    title: "Intra AUST Programming Contest (IAPC)",
+    subheading: "AUST CSE Department • Competitive Programming",
+    badge: "Contest",
+    category: "Competitive Programming",
+    icon: "SiCodeforces",
+    description: (
+  <>
+    2x Champion (Junior Category)
+    <br />
+    1x 2nd Runners Up (Senior Category)
+  </>
+),
+    credentialsUrl: "https://drive.google.com/drive/folders/1mESet140KVLgZt8fPPFC5BvUHYeXdla3?usp=sharing",
   },
   {
-    title: "C# & Object-Oriented Software Engineering",
-    subheading: "AUST CSE & Certified Course | Credential ID: CS-2024-AUST",
+    title: "YCPC by Phitron",
+    subheading: "Phitron • Competitive Programming",
+    badge: "Contest",
+    category: "Competitive Programming",
+    icon: "SiCodeforces",
+    description: "Ranked 10th nationally in the YCPC Grand Finale contest.",
+    credentialsUrl: "https://drive.google.com/file/d/1S8ge8NOlW-yeYQdVUxBv_4zbenA8du-W/view?usp=sharing",
+  },
+  {
+    title: "C# & Responsive Web Design Certificate",
+    subheading: "FreeCodeCamp | Microsoft",
     badge: "Certified",
-    category: "Software Engineering",
+    category: "Development",
     icon: "FaAward",
     description:
-      "Completed rigorous certification in C#, .NET object-oriented architecture, SOLID principles, design patterns, and enterprise software engineering methodologies.",
+      "Completed rigorous certification in C#, .NET object-oriented architecture, and Responsive Web Design from FreeCodeCamp & Microsoft.",
     credentialsUrl: "https://www.linkedin.com/in/anamraiyan/details/certifications/",
   },
-  {
-    title: "Meta Front-End Developer & React Architecture",
-    subheading: "Meta / Coursera • Front-End Specialization | Professional Certificate",
-    badge: "Specialization",
-    category: "Frontend Development",
-    icon: "FaReact",
+ {
+    title: "DUET National Project Showcasing",
+    subheading: "DUET | Project Showcasing",
+    badge: "Certified",
+    category: "Project Showcasing",
+    icon: "FaAward",
     description:
-      "Certified in modern React application lifecycle, hooks, custom state management with Zustand and Redux Toolkit, responsive Tailwind layouts, and accessible UI engineering.",
-    credentialsUrl: "https://www.linkedin.com/in/anamraiyan/details/certifications/",
-  },
-  {
-    title: "Full-Stack Next.js & MERN Stack Engineering",
-    subheading: "Modern Web Development • Full Stack Certification",
-    badge: "Full Stack",
-    category: "Web Engineering",
-    icon: "SiNextdotjs",
-    description:
-      "Mastery of Next.js App Router, server-side rendering, MongoDB aggregation pipelines, RESTful microservices, and secured JWT authentication flows for production systems.",
-    credentialsUrl: "https://github.com/raiyan-noob",
-  },
-  {
-    title: "AUST Academic Project Innovation Award — Debugging AUST",
-    subheading: "Ahsanullah University of Science and Technology (AUST) • Department of CSE",
-    badge: "University Award",
-    category: "Project Excellence",
-    icon: "FaGamepad",
-    description:
-      "Recognized for building 'Debugging AUST', a 2D physics platformer game developed in C++ using iGraphics library with custom bounding-box collision physics and memory management.",
-    credentialsUrl: "https://github.com/raiyan-noob/2D-Platformer-Game",
-  },
-  {
-    title: "Python for Data Structures & Algorithmic Thinking",
-    subheading: "Coursera / Python Institute • Algorithmic Analysis",
-    badge: "Algorithms",
-    category: "Problem Solving",
-    icon: "FaPython",
-    description:
-      "In-depth certification covering recursion, complexity analysis, graph traversals, and algorithmic optimization in Python for automated problem solving.",
-    credentialsUrl: "https://www.linkedin.com/in/anamraiyan/details/certifications/",
-  },
-  {
-    title: "Academic CS & ICT Mentorship Distinction",
-    subheading: "Dhaka Academic Tutoring Network • Mentorship Leadership",
-    badge: "Leadership",
-    category: "Academic Mentorship",
-    icon: "FaChalkboardTeacher",
-    description:
-      "Mentored and trained 30+ university and college students across Dhaka in programming languages (C++, Python), data structures, and computer science fundamentals.",
-    credentialsUrl: "https://www.linkedin.com/in/anamraiyan/",
-  },
-  {
-    title: "SQL & Relational Database Design",
-    subheading: "PostgreSQL & Database Systems • Certified Query Specialist",
-    badge: "Database",
-    category: "Backend & DB",
-    icon: "FaDatabase",
-    description:
-      "Proficient in relational schema normalization, complex SQL joins, indexing, and Prisma ORM migrations with zero downtime.",
-    credentialsUrl: "https://www.linkedin.com/in/anamraiyan/details/certifications/",
+      "Participated in the final round of the DUET CSE Carnival project showcasing competition. Was selected among the top 26 teams out of 65 teams.",
+    credentialsUrl: "https://drive.google.com/file/d/10PLVQs-fqXVDooAs5tSlGYmggU34-OmE/view?usp=sharing",
   },
 ];
 
@@ -392,7 +351,7 @@ export const services = [
     title: "Full-Stack Web Development",
     icon: "FaLaptopCode",
     description:
-      "End-to-end web applications built with Next.js, React 19, Node.js, and MongoDB/PostgreSQL. Fast, secure, and production-ready.",
+      "End-to-end web applications built with Next.js, React 19, Node.js, and MongoDB. Fast, secure, and production-ready.",
     features: ["Custom Web Applications", "MERN Stack Solutions", "Next.js App Router & SSR", "API Integrations & Auth"],
   },
   {
@@ -407,14 +366,14 @@ export const services = [
     icon: "FaServer",
     description:
       "Robust RESTful microservices, scalable schema designs with Prisma, indexing, authentication, and secure data handling.",
-    features: ["REST & GraphQL Endpoints", "MongoDB Aggregations", "PostgreSQL Relational DBs", "JWT & OAuth Security"],
+    features: ["REST & GraphQL Endpoints", "MongoDB Aggregations", "BetterAuth Safe Authentication", "JWT & OAuth Security"],
   },
   {
-    title: "Algorithm Mentorship & Tutoring",
-    icon: "FaChalkboardTeacher",
+    title: "AI / ML Integration & Intelligent Systems",
+    icon: "FaRocket",
     description:
-      "One-on-one and cohort coaching for university students and coding enthusiasts in C++, Python, Data Structures & Algorithms, and ICT.",
-    features: ["DSA Roadmap Guidance", "Codeforces Contest Strategy", "C++ STL & OOP Mastery", "Interview Preparation"],
+      "Integrating machine learning models and intelligent data processing to add smart automation and predictive features to modern web applications.",
+    features: ["AI API Integrations", "Python Data Processing", "Intelligent Automations", "Data Modeling & Logic"],
   },
   {
     title: "Performance & SEO Optimization",
@@ -434,58 +393,80 @@ export const services = [
 
 export const projects = [
   {
-    id: "bazar-sodai",
-    title: "Bazar Sodai - Next.js E-Commerce Platform",
+    id: "mindease",
+    title: "MindEase - A Flutter-based mental wellness app",
     shortDescription:
-      "A modern grocery & retail e-commerce platform built with Next.js featuring lightning-fast cart operations, responsive product catalog, and seamless checkout.",
-    image: "/projects/project1-placeholder.svg",
-    techStack: ["Next.js", "JavaScript", "Tailwind CSS", "React", "Node.js"],
+      "A Flutter-based mental wellness app designed to help users manage stress and emotions through personalized calming activities, breathing exercises, and curated content.",
+    image: "/projects/Mindease.jpg",
+    techStack: ["Flutter", "Dart", "Firebase"],
     description:
-      "Bazar Sodai is a full-featured e-commerce platform built with Next.js that combines a grocery storefront with seamless shopping. Features include dynamic category navigation, real-time product search, responsive cart drawer, and optimized server-side rendering for superior performance.",
-    liveLink: "https://github.com/raiyan-noob/bazar-sodai",
-    githubLink: "https://github.com/raiyan-noob/bazar-sodai",
+      "MindEase is a mobile application that lets users select how they are feeling and explore suitable calming content. Users can choose a mood such as sad, anxious, stressed, or calm, then select a preferred healing method such as entertainment, spiritual/religious content, poetry, or stories. The app also includes authentication, cloud-backed data storage, a breathing exercise, and a clean light/dark themed interface.",
+    githubLink: "https://github.com/raiyan-noob/MindEase",
     challenges: [
-      "Optimizing product image loading and catalog rendering speed across low-bandwidth mobile devices.",
-      "Implementing instant cart synchronization without excessive state recalculation.",
-      "Managing complex search filters across multiple category hierarchies.",
-    ],
-    improvements: [
-      "Integrate local payment gateways (bKash, Nagad) alongside Stripe.",
-      "Add customer order tracking with live status updates.",
-      "Implement vendor dashboard for multi-store management.",
-    ],
+  "Designing an intuitive and calming user interface to support users experiencing different emotional states.",
+  "Organizing mood-based healing content across entertainment, spirituality, poetry, and stories.",
+  "Implementing interactive breathing exercises and smooth navigation between emotional wellness features.",
+],
+improvements: [
+  "Add anonymous community posts and comments to encourage emotional support and shared experiences.",
+  "Expand the library of mood-based healing resources, including guided breathing exercises and mindfulness activities.",
+  "Implement user profiles and personalized wellness progress tracking to support consistent emotional self-care.",
+],
   },
   {
-    id: "booklet",
-    title: "Booklet - Book Catalog & Reading Tracker",
+    id: "HarborCFO",
+    title: "HarborCFO - SME Finance Copilot",
     shortDescription:
-      "A modern book catalog and reading tracker built with Next.js, featuring user collections, review logs, and reading progress analytics.",
-    image: "/projects/project2-placeholder.svg",
-    techStack: ["Next.js", "JavaScript", "Tailwind CSS", "React", "LocalStorage"],
+      "HarborCFO is an autonomous, deterministic, and fiduciary-grade SME finance copilot.",
+    image: "/projects/harbor.png",
+    techStack: ["Next.js", "React", "MongoDB", "BetterAuth"],
     description:
-      "Booklet helps avid readers organize their reading lists, track yearly reading goals, and review literary works. Built with Next.js, it offers an intuitive dashboard with shelf categorization (Currently Reading, Want to Read, Finished) and interactive rating cards.",
-    liveLink: "https://github.com/raiyan-noob/Booklet",
-    githubLink: "https://github.com/raiyan-noob/Booklet",
+      "HarborCFO is an autonomous, deterministic, and fiduciary-grade SME finance copilot. It combines 91-day deterministic cash flow forecasting, multi-factor financing remedy matching, role-based access control (RBAC), and an AI copilot with real-time tool execution telemetry.",
+    liveLink: "https://harborcfo.vercel.app/",
+    githubLink: "https://github.com/azmaeenmahtab/Shenzen-Fintechathon",
     challenges: [
-      "Designing an intuitive shelf categorization workflow that requires minimal user clicks.",
-      "Implementing smooth reading progress bars and statistics calculations on the client side.",
-    ],
-    improvements: [
-      "Connect to the Google Books API to allow instant book ISBN lookup.",
-      "Add social reading clubs and shared book recommendations.",
-      "Build exportable reading challenge infographics.",
-    ],
+  "Ensuring accurate financial transaction categorization and validation across diverse accounting data sources.",
+  "Maintaining consistency between bank transactions, accounts receivable, and accounts payable records.",
+  "Implementing reliable financial audit trails and evidence-based validation for transparent financial operations.",
+],
+improvements: [
+  "Integrate more banking APIs to enable automated transaction synchronization and real-time financial monitoring.",
+  "Enhance AI-powered financial insights with cash flow forecasting, anomaly detection, and expense analysis.",
+  "Expand reporting capabilities with customizable financial dashboards, automated reconciliation, and downloadable audit reports.",
+],
+  },
+  {
+    id: "castle-design",
+    title: "Castle Design - A React-based portfolio website",
+    shortDescription:
+      "Castle Design is a responsive interior design website for showcasing residential and commercial spaces.",
+    image: "/projects/castle.png",
+    techStack: ["React","JavaScript", "Tailwind CSS", "LocalStorage"],
+    description:
+      "Castle Design is a responsive interior design website for showcasing residential and commercial spaces. The site presents the brand's design philosophy, services, portfolio, and contact options in a warm editorial interface inspired by the company's slogan.",
+    liveLink: "https://castledesign.vercel.app/",
+    githubLink: "https://github.com/raiyan-noob/Castle-design",
+    challenges: [
+  "Creating a visually appealing and responsive portfolio layout that showcases design projects across different screen sizes.",
+  "Optimizing image-heavy project galleries for faster loading and a smooth browsing experience.",
+  "Maintaining consistent branding, typography, and visual hierarchy across all website sections.",
+],
+improvements: [
+  "Add a content management system to simplify portfolio updates and project management.",
+  "Integrate a contact form with email notifications to streamline client inquiries.",
+  "Enhance project galleries with interactive animations, category filters, and detailed case studies.",
+],
   },
   {
     id: "dispatch-bd",
     title: "Dispatch BD - News & Media Portal",
     shortDescription:
       "A modern news and media web application built with Next.js delivering categorized journalism, breaking news tickers, and rich editorial layouts.",
-    image: "/projects/project3-placeholder.svg",
-    techStack: ["Next.js", "JavaScript", "Tailwind CSS", "SSR"],
+    image: "/projects/dispatch.png",
+    techStack: ["Next.js", "JavaScript", "Tailwind CSS", "BetterAuth"],
     description:
       "Dispatch BD is a dynamic journalism portal designed for fast reading on mobile and desktop. It features breaking news banners, article categorization (Tech, National, International, Sports), clean typography, and server-side rendering for optimal SEO and social media sharing.",
-    liveLink: "https://github.com/raiyan-noob/Dispatch-BD",
+    liveLink: "https://dispatch-bd.vercel.app/",
     githubLink: "https://github.com/raiyan-noob/Dispatch-BD",
     challenges: [
       "Achieving sub-second First Contentful Paint times for breaking news readers.",
@@ -497,55 +478,14 @@ export const projects = [
     ],
   },
   {
-    id: "codeforce-rating-generator",
-    title: "Codeforce Rating Generator",
-    shortDescription:
-      "A specialized system connecting to the Codeforces API where users input handles to analyze contest performance and rating trajectories.",
-    image: "/projects/project1-placeholder.svg",
-    techStack: ["Java", "Codeforces API", "JSON Parsing", "Algorithms"],
-    description:
-      "Built for competitive programmers, this system queries Codeforces public endpoints to evaluate a user's contest history, rating peaks, problem rank breakdown, and projected performance improvements for upcoming rounds.",
-    liveLink: "https://codeforces.com/profile/anamraiyan",
-    githubLink: "https://github.com/raiyan-noob/Codeforce-Rating-Generator",
-    challenges: [
-      "Handling API rate limiting and parsing nested contest JSON responses efficiently.",
-      "Accurately projecting rating fluctuations using Codeforces formula heuristics.",
-    ],
-    improvements: [
-      "Migrate into a full web-based interactive dashboard with Chart.js.",
-      "Add automated contest round reminder notifications via Discord bot.",
-    ],
-  },
-  {
-    id: "fitlog",
-    title: "FitLog - Fitness & Workout Routine Tracker",
-    shortDescription:
-      "A clean fitness tracking application that helps users log workouts, monitor exercise routines, and maintain fitness consistency.",
-    image: "/projects/project2-placeholder.svg",
-    techStack: ["JavaScript", "HTML5", "CSS3", "DOM"],
-    description:
-      "FitLog is crafted to simplify workout documentation. Users can log daily exercises, track sets/reps/weights, view personal workout history, and set weekly consistency milestones with zero unnecessary friction.",
-    liveLink: "https://github.com/raiyan-noob/FitLog",
-    githubLink: "https://github.com/raiyan-noob/FitLog",
-    challenges: [
-      "Creating an effortless mobile-optimized UI so users can log sets mid-workout without tedious menus.",
-      "Maintaining local offline persistence for continuous gym tracking without network reliance.",
-    ],
-    improvements: [
-      "Add visual muscle group heatmaps based on logged exercises.",
-      "Include rest timers between sets with audio alerts.",
-    ],
-  },
-  {
     id: "debugging-aust",
     title: "Debugging AUST - 2D Platformer Game",
     shortDescription:
       "A 2D platformer game developed in C++ using the iGraphics library featuring custom collision detection, sprite physics, and university-themed challenges.",
-    image: "/projects/project3-placeholder.svg",
+    image: "/projects/debugging.png",
     techStack: ["C++", "iGraphics Library", "Game Physics", "Data Structures"],
     description:
-      "Debugging AUST is a creative 2D platformer game built as a key university software project at AUST. Players navigate character sprites through obstacle courses, dodging bugs and collecting academic tokens, powered by custom collision math and C++ memory management.",
-    liveLink: "https://github.com/raiyan-noob/2D-Platformer-Game",
+      "Debugging AUST is a creative 2D platformer game built as a key university project. Players navigate character sprites through obstacle courses, dodging bugs and collecting academic tokens, powered by custom collision math and C++ memory management.",
     githubLink: "https://github.com/raiyan-noob/2D-Platformer-Game",
     challenges: [
       "Implementing custom pixel-perfect bounding box collision detection and gravity physics without an external game engine.",

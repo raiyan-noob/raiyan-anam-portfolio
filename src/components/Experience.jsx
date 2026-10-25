@@ -53,15 +53,12 @@ const Experience = () => {
         >
           <div className="mb-4 flex justify-center">
             <span className="inline-flex items-center gap-2 rounded-full border border-indigo-500/30 bg-indigo-500/10 px-4 py-1.5 text-xs font-bold uppercase tracking-wider text-indigo-400 backdrop-blur-md">
-              <FaBriefcase /> Career & Tutoring
+              <FaBriefcase /> Career & Development
             </span>
           </div>
           <h2 className="section-title section-title-center block text-3xl font-extrabold sm:text-4xl lg:text-5xl text-base-content">
             Professional <span className="gradient-text">Experience</span>
           </h2>
-          <p className="mx-auto mt-4 max-w-2xl text-base text-base-content/70">
-            Internship experience, freelance software engineering, and academic computer science tutoring.
-          </p>
         </motion.div>
 
         {/* ── Experience cards ─────────────────────────────── */}

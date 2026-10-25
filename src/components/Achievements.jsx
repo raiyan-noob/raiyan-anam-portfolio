@@ -79,9 +79,6 @@ export default function Achievements() {
             <h2 className="section-title block text-3xl font-extrabold sm:text-4xl lg:text-5xl text-base-content">
               Achievements & <span className="gradient-text">Certifications</span>
             </h2>
-            <p className="mt-4 max-w-xl text-base text-base-content/70">
-              Verified competitive programming ranks, professional certifications, and academic excellence. Swipe to browse 3 items per view.
-            </p>
           </motion.div>
 
           {/* Swipe / Carousel Controls */}
@@ -108,52 +105,6 @@ export default function Achievements() {
           </div>
         </div>
 
-        {/* ── Codeforces Live Card Spotlight ── */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.6, delay: 0.15 }}
-          className="mb-10 overflow-hidden rounded-3xl border border-amber-500/30 bg-gradient-to-br from-amber-500/10 via-base-200/60 to-purple-500/10 p-5 sm:p-8 backdrop-blur-xl shadow-xl"
-        >
-          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
-            <div className="flex items-start sm:items-center gap-4 sm:gap-5">
-              <div className="flex h-12 w-12 sm:h-16 sm:w-16 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-tr from-amber-500 to-orange-500 text-2xl sm:text-3xl text-white shadow-lg shadow-amber-500/25">
-                <SiCodeforces />
-              </div>
-              <div>
-                <div className="flex flex-wrap items-center gap-2">
-                  <span className="text-xs font-bold uppercase tracking-wider text-amber-400">
-                    Codeforces Rank: {personalInfo.cpStats?.rank || "Pupil"}
-                  </span>
-                  <span className="h-1.5 w-1.5 rounded-full bg-amber-400 hidden sm:inline-block" />
-                  <span className="text-xs text-base-content/60 font-mono">@{personalInfo.handle}</span>
-                </div>
-                <h3 className="text-xl sm:text-2xl font-black text-base-content">
-                  Codeforces Competitive Profile
-                </h3>
-                <p className="mt-1 text-xs sm:text-sm text-base-content/75 max-w-xl">
-                  Peak Rating: <strong className="text-amber-400">{personalInfo.cpStats?.maxRating || 1375}</strong> • Current Rating: <strong className="text-base-content">{personalInfo.cpStats?.rating || 1315}</strong> • Organization: <span className="text-indigo-400 font-semibold">{personalInfo.cpStats?.organization || "AUST"}</span>
-                </p>
-              </div>
-            </div>
-
-            <div className="flex flex-wrap items-center gap-3 w-full md:w-auto">
-              <div className="flex items-center gap-2 rounded-xl border border-white/10 bg-base-100/60 px-3.5 py-2 sm:px-4 sm:py-2.5 backdrop-blur-md">
-                <FaStar className="text-amber-400 text-sm" />
-                <span className="text-xs font-bold text-base-content">500+ Solved</span>
-              </div>
-              <a
-                href={personalInfo.socialLinks.codeforces}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 px-4 py-2 sm:px-5 sm:py-2.5 text-xs sm:text-sm font-bold text-white shadow-md shadow-amber-500/25 transition-all hover:scale-105 hover:shadow-amber-500/40 flex-1 sm:flex-initial"
-              >
-                <span>View Profile</span>
-                <FaExternalLinkAlt className="text-xs" />
-              </a>
-            </div>
-          </div>
-        </motion.div>
 
         {/* ── Swipeable Column of 3 Row Cards ── */}
         <div className="relative min-h-[500px]">

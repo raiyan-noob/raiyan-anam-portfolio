@@ -78,9 +78,6 @@ export default function Projects() {
             <h2 className="section-title block text-3xl font-extrabold sm:text-4xl lg:text-5xl text-base-content">
               My <span className="gradient-text">Projects</span>
             </h2>
-            <p className="mt-4 max-w-xl text-base text-base-content/70">
-              Interactive web apps, real-time tools, and competitive programming trackers. Swipe side-by-side to explore.
-            </p>
           </motion.div>
 
           {/* Previous / Next Arrow Controls */}
