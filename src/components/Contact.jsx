@@ -8,6 +8,9 @@ import {
   FaWhatsapp,
   FaMapMarkerAlt,
   FaPaperPlane,
+  FaCheckCircle,
+  FaExclamationCircle,
+  FaSpinner,
 } from "react-icons/fa";
 import { personalInfo } from "@/data/portfolioData";
 
@@ -90,15 +93,46 @@ const Contact = () => {
     subject: "",
     message: "",
   });
+  const [status, setStatus] = useState("idle"); // 'idle' | 'loading' | 'success' | 'error'
+  const [statusMessage, setStatusMessage] = useState("");
 
   const handleChange = (e) => {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    alert("Form submitted! Thank you for reaching out.");
-    setForm({ name: "", email: "", subject: "", message: "" });
+    setStatus("loading");
+    setStatusMessage("");
+
+    try {
+      const res = await fetch("https://formsubmit.co/ajax/anamraiyan@gmail.com", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          name: form.name,
+          email: form.email,
+          _subject: `[Portfolio] ${form.subject || "New Message"} - from ${form.name}`,
+          message: form.message,
+          _captcha: "false",
+        }),
+      });
+
+      const data = await res.json();
+      if (res.ok || data.success === "true" || data.success === true) {
+        setStatus("success");
+        setStatusMessage("Your message has been sent successfully to anamraiyan@gmail.com!");
+        setForm({ name: "", email: "", subject: "", message: "" });
+      } else {
+        throw new Error(data.message || "Failed to send message");
+      }
+    } catch {
+      setStatus("error");
+      setStatusMessage("Could not send automatically. Click below to send directly using your email app:");
+    }
   };
 
   return (
@@ -222,13 +256,52 @@ const Contact = () => {
                 />
               </label>
 
-              {/* Submit */}
+              {/* Status Notifications */}
+              {status === "success" && (
+                <div className="flex items-start gap-3 rounded-xl border border-emerald-500/30 bg-emerald-500/10 p-4 text-emerald-400 text-sm">
+                  <FaCheckCircle className="mt-0.5 text-base shrink-0" />
+                  <div>
+                    <p className="font-semibold">{statusMessage}</p>
+                    <p className="text-xs text-emerald-400/80 mt-1">
+                      Raiyan has received your message and will reply shortly.
+                    </p>
+                  </div>
+                </div>
+              )}
+
+              {status === "error" && (
+                <div className="flex flex-col gap-2 rounded-xl border border-rose-500/30 bg-rose-500/10 p-4 text-rose-400 text-sm">
+                  <div className="flex items-start gap-2">
+                    <FaExclamationCircle className="mt-0.5 text-base shrink-0" />
+                    <p className="font-semibold">{statusMessage}</p>
+                  </div>
+                  <a
+                    href={`mailto:anamraiyan@gmail.com?subject=${encodeURIComponent(form.subject || "Portfolio Contact")}&body=${encodeURIComponent(`From: ${form.name} (${form.email})\n\n${form.message}`)}`}
+                    className="inline-flex items-center justify-center gap-2 rounded-lg bg-rose-600 px-4 py-2 text-xs font-bold text-white hover:bg-rose-500 transition-colors w-full sm:w-auto self-start mt-1"
+                  >
+                    <FaPaperPlane className="text-xs" />
+                    <span>Open in Email App</span>
+                  </a>
+                </div>
+              )}
+
+              {/* Submit Button */}
               <button
                 type="submit"
-                className="btn mt-2 w-full border-none bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-lg shadow-indigo-500/25 transition-all duration-300 hover:shadow-xl hover:shadow-indigo-500/40 hover:brightness-110"
+                disabled={status === "loading"}
+                className="btn mt-2 w-full border-none bg-gradient-to-r from-indigo-500 to-purple-600 text-white shadow-lg shadow-indigo-500/25 transition-all duration-300 hover:shadow-xl hover:shadow-indigo-500/40 hover:brightness-110 disabled:opacity-50"
               >
-                <FaPaperPlane className="mr-2" />
-                Send Message
+                {status === "loading" ? (
+                  <>
+                    <FaSpinner className="mr-2 animate-spin text-sm" />
+                    <span>Sending to anamraiyan@gmail.com...</span>
+                  </>
+                ) : (
+                  <>
+                    <FaPaperPlane className="mr-2" />
+                    <span>Send Message</span>
+                  </>
+                )}
               </button>
             </form>
           </motion.div>
