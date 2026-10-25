@@ -85,7 +85,7 @@ export const aboutMe = {
     { label: "Problems Solved", value: "600+" },
     { label: "Projects Completed", value: "10+" },
     { label: "Codeforces Rating", value: "1375 Max" },
-    { label: "Stacks Learned", value: "15+" },
+    { label: "Github Contributions", value: "300+" },
   ],
 };
 
