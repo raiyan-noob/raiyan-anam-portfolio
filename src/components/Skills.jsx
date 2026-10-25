@@ -116,7 +116,7 @@ const ModernSkillCard = ({ skill }) => {
 
       <div className="mt-4 pt-3 border-t border-white/5 flex items-center gap-1.5 text-[11px] font-semibold text-emerald-400/90">
         <FaCheckCircle className="text-[10px]" />
-        <span>Production & Contest Ready</span>
+        <span>Production Ready</span>
       </div>
     </div>
   );
@@ -290,7 +290,7 @@ export default function Skills() {
               <h4 className="text-base font-bold text-base-content">Competitive Programming</h4>
             </div>
             <p className="text-sm leading-relaxed text-base-content/75">
-              800+ problems solved across Codeforces & LeetCode focusing on data structure algorithms, and time complexity.
+              600+ problems solved across Codeforces & LeetCode focusing on data structure algorithms, and time complexity.
             </p>
           </div>
 
