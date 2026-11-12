@@ -267,16 +267,7 @@ export const education = [
 
 export const experience = [
  
-  {
-    role: "Competitive Programmer & Algorithmic Problem Solver",
-    company: "Codeforces & LeetCode",
-    duration: "2024 - Present",
-    description: [
-      "Regularly compete in Codeforces rated rounds, achieving Pupil rank with a max rating of 1375.",
-      "Solved 600+ algorithmic challenges encompassing graphs, dynamic programming, number theory, and data structures in C++.",
-      "Participated in national, inter, and intra-university contests.",
-    ],
-  },
+  
   {
     role: "AI Trainer",
     company: "Outlier",
@@ -392,6 +383,27 @@ export const services = [
 ];
 
 export const projects = [
+  {
+  id: "altru",
+  title: "Altru - A Community-Driven Social Development Platform",
+  shortDescription:
+    "A Next.js-based platform that connects citizens, volunteers, and humanitarian organizers to discover, organize, and participate in local social development events across Bangladesh.",
+  image: "/projects/Altru.png",
+  techStack: ["Next.js", "Express.js", "MongoDB", "Better Auth"],
+  description:
+    "Altru is a community-driven platform designed to make social development initiatives more accessible by connecting people with local volunteering opportunities. Users can explore events such as winter clothing distributions, community cleanups, tree planting, food relief programs, and free medical camps. The platform allows volunteers to join events and track their participation, while organizers can create, edit, and manage events. It also includes secure authentication with email/password and Google sign-in, user profiles, responsive navigation, and a light/dark themed interface.",
+  githubLink: "https://github.com/raiyan-noob/Altru",
+  challenges: [
+    "Designing an intuitive platform that makes it easy for users to discover relevant social development and volunteering opportunities.",
+    "Implementing a reliable volunteer RSVP system with duplicate prevention and real-time participant tracking.",
+    "Building secure event management features with ownership-based authorization to ensure organizers can only manage their own events.",
+  ],
+  improvements: [
+    "Introduce an admin verification system to improve trust and authenticity among event organizers.",
+    "Add location-based event discovery and map integration to help volunteers find nearby initiatives.",
+    "Implement volunteer contribution tracking, participation history, and achievement badges to encourage continued community engagement.",
+  ],
+},
   {
     id: "mindease",
     title: "MindEase - A Flutter-based mental wellness app",

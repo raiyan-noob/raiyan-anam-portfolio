@@ -354,8 +354,8 @@ export default function Hero() {
                   <SiCodeforces className="text-lg" />
                 </div>
                 <div>
-                  <div className="text-xs font-bold text-base-content">Codeforces Pupil</div>
-                  <div className="text-[11px] font-medium text-amber-400">Max Rating: 1375 • AUST</div>
+                  <div className="text-xs font-bold text-base-content">Competitive Prog.</div>
+                  <div className="text-[11px] font-medium text-amber-400">600+ Problems Solved</div>
                 </div>
               </div>
 
