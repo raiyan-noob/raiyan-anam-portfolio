@@ -118,7 +118,7 @@ export default function Hero() {
       </div>
 
       <div className="mx-auto w-full max-w-7xl">
-        <div className="flex flex-col-reverse items-center gap-14 lg:flex-row lg:items-center lg:justify-between lg:gap-12">
+        <div className="flex flex-col items-center gap-14 lg:flex-row lg:items-center lg:justify-between lg:gap-12">
           {/* ── Left: Text Content ── */}
           <motion.div
             className="flex-1 text-center lg:text-left"
